@@ -1,0 +1,20 @@
+// @license
+// Copyright (c) Audanika. All Rights Reserved.
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  "name": "aud_audio_ui_waveform",
+  "summary": "Waveform view of the Audanika Audio Engine, modeled on AudioKit Waveform.",
+  "domain": [
+    "Waveform view of the Audanika Audio Engine, modeled on AudioKit Waveform"
+  ],
+  "interfaces": {
+    "uses": {
+      "aud_audio": "package dependency",
+      "aud_audio_file": "package dependency"
+    },
+    "usedBy": {}
+  }
+}
