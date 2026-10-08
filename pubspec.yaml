@@ -1,6 +1,6 @@
 name: aud_audio_ui_waveform
 description: "Waveform view of the Audanika Audio Engine, modeled on AudioKit Waveform"
-version: 0.0.1
+version: 0.0.2
 publish_to: none
 homepage: https://github.com/audaudio/aud_audio_ui_waveform
 repository: https://github.com/audaudio/aud_audio_ui_waveform
@@ -12,14 +12,14 @@ environment:
 dependencies:
   aud_audio:
     git:
-      url: https://github.com/audaudio/aud_audio.git
+      url: git@github.com:audaudio/aud_audio.git
       tag_pattern: "{{version}}"
-    version: ^0.0.1
+    version: ^0.0.2
   aud_audio_file:
     git:
-      url: https://github.com/audaudio/aud_audio_file.git
+      url: git@github.com:audaudio/aud_audio_file.git
       tag_pattern: "{{version}}"
-    version: ^0.0.1
+    version: ^0.0.2
   flutter:
     sdk: flutter
 
