@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `aud_audio_ui_waveform` package.
-const String audAudioUiWaveformVersion = '0.0.2';
+const String audAudioUiWaveformVersion = '0.0.3';
