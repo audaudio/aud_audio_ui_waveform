@@ -22,6 +22,10 @@
 
 - Lift the lock file to the newest resolvable versions
 
+- Upgrade the dependencies published since the first pass
+
+Lift the lock file to the newest resolvable versions
+
 ## 0.0.3 - 2026-10-24
 
 ## 0.0.2 - 2026-10-08
