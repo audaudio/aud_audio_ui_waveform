@@ -19,7 +19,7 @@ dependencies:
     git:
       url: git@github.com:audaudio/aud_audio_file.git
       tag_pattern: "{{version}}"
-    version: ^0.0.3
+    version: ^0.1.1
   flutter:
     sdk: flutter
 

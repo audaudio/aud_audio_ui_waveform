@@ -5,6 +5,7 @@
 ### Changed
 
 - Require Flutter 3.50 and Dart 3.14, build the DNA
+- Require aud_audio_file 0.1.1
 
 ## 0.1.0 - 2026-10-28
 
