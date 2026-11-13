@@ -20,65 +20,52 @@ packages:
   aud_audio:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: c05930b6ce3b353052a10ce38688f45526453a05
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audaudio/aud_audio.git"
-    source: git
-    version: "0.5.0"
-  aud_audio_core:
-    dependency: transitive
-    description:
-      path: "."
-      resolved-ref: "9f07300117bb29b5dfd0847148362270004e334c"
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audaudio/aud_audio_core.git"
-    source: git
+      path: "../aud_audio"
+      relative: true
+    source: path
     version: "0.5.4"
+  aud_audio_core:
+    dependency: "direct overridden"
+    description:
+      path: "../aud_audio_core"
+      relative: true
+    source: path
+    version: "0.6.2"
   aud_audio_file:
     dependency: "direct main"
     description:
-      path: "."
-      resolved-ref: "1756fbbf2d52ca79098ec52d782320e6eed1a227"
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audaudio/aud_audio_file.git"
-    source: git
-    version: "0.0.3"
-  aud_audio_graph:
-    dependency: transitive
-    description:
-      path: "."
-      resolved-ref: "7dc97f1a28a396b53c078efbfd92d1776de33c82"
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audaudio/aud_audio_graph.git"
-    source: git
-    version: "0.5.5"
-  aud_audio_io:
-    dependency: transitive
-    description:
-      path: "."
-      resolved-ref: b76f7fabcdb84d8c6ed98d68174734c715866d3d
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audaudio/aud_audio_io.git"
-    source: git
-    version: "0.4.0"
-  aud_audio_web:
-    dependency: transitive
-    description:
-      path: "."
-      resolved-ref: "3cef6c5e7077dced84fd12afb4baa08bb73736ea"
-      tag-pattern: "{{version}}"
-      url: "git@github.com:audaudio/aud_audio_web.git"
-    source: git
-    version: "0.0.10"
-  aud_midi_standard:
-    dependency: transitive
-    description:
-      name: aud_midi_standard
-      sha256: c97a486531d36b9fa9765be8145d4367d7d501af113af8faf10b9154e6af09b9
-      url: "https://pub.dev"
-    source: hosted
+      path: "../aud_audio_file"
+      relative: true
+    source: path
     version: "0.1.1"
+  aud_audio_graph:
+    dependency: "direct overridden"
+    description:
+      path: "../aud_audio_graph"
+      relative: true
+    source: path
+    version: "0.6.4"
+  aud_audio_io:
+    dependency: "direct overridden"
+    description:
+      path: "../aud_audio_io"
+      relative: true
+    source: path
+    version: "0.5.2"
+  aud_audio_web:
+    dependency: "direct overridden"
+    description:
+      path: "../aud_audio_web"
+      relative: true
+    source: path
+    version: "0.1.2"
+  aud_midi_standard:
+    dependency: "direct overridden"
+    description:
+      path: "../aud_midi_standard"
+      relative: true
+    source: path
+    version: "0.3.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -107,10 +94,10 @@ packages:
     dependency: transitive
     description:
       name: code_assets
-      sha256: "828110d598123b5ea96c00c9f3c72105bf79f8ee36c20a39b26209ade421ec57"
+      sha256: "1ef22a0be3af9370bd9481ac76db114db92bfe75d5ca2b2d7bc911764478a4d9"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "2.2.0"
   collection:
     dependency: transitive
     description:
@@ -349,10 +336,10 @@ packages:
     dependency: transitive
     description:
       name: jni
-      sha256: d8df6dab6847855512fe44dd9032b0bbe34dda7bf7597e41d30750879779813f
+      sha256: "2e91e6087291affd10b31b6c872f3e3ac7dc5d93b51b5ba485d930c8f08bde6c"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.1"
+    version: "1.1.2"
   jni_flutter:
     dependency: transitive
     description:
@@ -401,6 +388,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.0"
+  listen:
+    dependency: transitive
+    description:
+      name: listen
+      sha256: "47501a08016a43fcad79252439d723f50f14f88fa7bfd8a177e0a417e5c9e1f2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
   logging:
     dependency: transitive
     description:
@@ -445,10 +440,10 @@ packages:
     dependency: transitive
     description:
       name: native_toolchain_c
-      sha256: "90eaad8059ebc2004a63810a4696ea9acdb02473e47ed3b6b3bafb100ac77e31"
+      sha256: "120b6fc66acd8a5ddeaeb1e59b78836bb3ec9919bd9d9dfb1e2401985710c2c0"
       url: "https://pub.dev"
     source: hosted
-    version: "0.19.5"
+    version: "0.19.6"
   package_config:
     dependency: transitive
     description:
@@ -562,10 +557,10 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: "2a122cbe059f8b610d3a5415f42e255b6c17b1f21eee1d960f31080237fb4f11"
+      sha256: "0a10344e901e5b2e63819567951cb6a06673ed6b84f40462188ff5a0c41f371f"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.12"
+    version: "0.7.14"
   vector_math:
     dependency: transitive
     description:
